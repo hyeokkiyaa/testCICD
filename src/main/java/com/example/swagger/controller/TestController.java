@@ -20,7 +20,7 @@ public class TestController {
         return "Hello, Swagger!";
     }
 
-    // 단순 GET 요청 - 사용자 정보 조회
+
     @GetMapping("/user/{id}")
     public UserResponseDTO getUser(
             @Parameter(description = "조회할 사용자 ID", example = "123") @PathVariable String id) {
