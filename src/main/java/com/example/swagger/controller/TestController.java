@@ -14,7 +14,7 @@ import java.util.Map;
 @RequestMapping("/api")
 public class TestController {
 
-    // 기본적인 GET 요청 (Swagger UI에서 테스트 가능)
+
     @GetMapping("/hello")
     public String hello() {
         return "Hello, Swagger!";
